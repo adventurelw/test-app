@@ -12,6 +12,7 @@
 
 # Ignore bundler config
 /.bundle
+/bin
 /vender/bundle
 
 # Ignore the default SQLite database.
