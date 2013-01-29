@@ -29,7 +29,7 @@ group :test do
   #测试结果展示
   gem 'turn', '~> 0.9.6'
 
-  #实例创建工厂
+  #实例创建工厂，4.2.0暂时会出现错误
   gem 'factory_girl_rails', '~> 4.1.0'
 
   #清空测试数据库
