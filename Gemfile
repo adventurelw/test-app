@@ -30,7 +30,7 @@ group :test do
   gem 'turn', '~> 0.9.6'
 
   #实例创建工厂
-  gem 'factory_girl_rails', '~> 4.2.0'
+  gem 'factory_girl_rails', '~> 4.1.0'
 
   #清空测试数据库
   gem 'database_cleaner', '~> 0.9.1'

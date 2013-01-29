@@ -4,6 +4,12 @@ SimpleCov.start 'rails'
 require 'rubygems'
 require 'spork'
 
+#FactoryGirl.definition_file_paths = [
+#  File.join(Padrino.root, 'factories'),
+#  File.join(Padrino.root, 'test', 'factories'),
+#  File.join(Padrino.root, 'spec', 'factories')]
+#FactoryGirl.find_definitions
+
 
 Spork.prefork do
   ENV["RAILS_ENV"] ||= 'test'
