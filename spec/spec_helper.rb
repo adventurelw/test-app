@@ -4,13 +4,6 @@ SimpleCov.start 'rails'
 require 'rubygems'
 require 'spork'
 
-#FactoryGirl.definition_file_paths = [
-#  File.join(Padrino.root, 'factories'),
-#  File.join(Padrino.root, 'test', 'factories'),
-#  File.join(Padrino.root, 'spec', 'factories')]
-#FactoryGirl.find_definitions
-
-
 Spork.prefork do
   ENV["RAILS_ENV"] ||= 'test'
   require File.expand_path("../../config/environment", __FILE__)
@@ -18,12 +11,12 @@ Spork.prefork do
   require 'rspec/autorun'
   require 'capybara/rails'
   require 'capybara/rspec'
-  module ::RSpec::Core
-    class ExampleGroup
-      include Capybara::DSL
-      include Capybara::RSpecMatchers
-    end
-  end
+#  module ::RSpec::Core
+#    class ExampleGroup
+#      include Capybara::DSL
+#      include Capybara::RSpecMatchers
+#    end
+#  end
 
   # Requires supporting ruby files with custom matchers and macros, etc,
   # in spec/support/ and its subdirectories.

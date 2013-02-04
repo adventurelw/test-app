@@ -48,7 +48,7 @@ group :test do
   gem 'libnotify', '~> 0.8.0'
 
   #自动管理spork
-  gem 'guard-spork', '~> 1.4.1'
+  gem 'guard-spork', '~> 1.4.2'
 
   #运行测试服务器spork
   gem 'spork', '~> 1.0rc'
