@@ -20,7 +20,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails', '~> 2.2.0'
+gem 'jquery-rails', '~> 2.2.1'
 
 gem 'rspec-rails', '~> 2.12.2', :group => [:development, :test]
 gem 'guard-rspec', '~> 2.4.0', :group => [:development, :test]
@@ -30,7 +30,7 @@ group :test do
   gem 'turn', '~> 0.9.6'
 
   #实例创建工厂，4.2.0暂时会出现错误
-  gem 'factory_girl_rails', '~> 4.1.0'
+  gem 'factory_girl_rails', '~> 4.2.1'
 
   #清空测试数据库
   gem 'database_cleaner', '~> 0.9.1'
@@ -39,7 +39,7 @@ group :test do
   gem 'capybara', '~> 2.0.2'
 
   #在使用 capybara 测试时通过 save_and_open_save方法来在浏览器打开当时状态的页面
-  gem 'launchy', '~> 2.1.2'
+  gem 'launchy', '~> 2.2.0'
 
   #监控文件环境变化
   gem 'rb-inotify', '~> 0.8.8'
